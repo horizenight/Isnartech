@@ -19,7 +19,7 @@ const Blog = () => {
         <div className="gpt3__blog-container_groupB">
         <Article  imgUrl={blog02} title="Airport" data="" />
         <Article  imgUrl={blog03} title="Public Toilets" data="" />
-        <Article  imgUrl={blog04} title="Restraunts" data="World" />
+        <Article  imgUrl={blog04} title="Restraunts" data="" />
         <Article  imgUrl={blog05} title="Paper Mill" data="" />
         </div>
 
