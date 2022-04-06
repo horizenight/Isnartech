@@ -18,10 +18,7 @@ const Brand = () => {
         {/* <img src={ai3} alt="artificial"/> */}
         <Card image={iot} title={'IOT Devices'} text={'Our next series of products is for smart cities .'}/>
       </div>
-      <div>
-        {/* <img src={ai3} alt="artificial"/> */}
-        <Card image={planetEarth} title={'Enviornment Cleaning Devices'} text={'Natural Plant liquid & wall mounting Deodorizing automizers are available.'}/>
-      </div>
+     
      
     </div>
   )

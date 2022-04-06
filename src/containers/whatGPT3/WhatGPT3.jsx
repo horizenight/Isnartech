@@ -23,15 +23,8 @@ const WhatGPT3 = () => {
         <p>Explore The Products</p>
       </div>
       <div className="gpt3__whatgpt3-container">
-        <Feature
-
-          title="Environment Cleaning Devices"
-          text="Lot of organization has taken key steps to monitor and control it but still it seems getting worst. Most of the devices available in the market are used as air freshener and they use chemically made liquid to fresh air. We have developed a unique product and a unique human friendly natural plant made liquid."
-
-          image = {'https://isnartech.com/images/up.png'}
-          imageAlt={'Environment Cleaning'}
-        />
-
+       
+        
         <Feature
           title="IOT Devices"
           text="Our next series of products is for smart cities and smart industries. They are based on Internet Of Things technology. Smart electric and water meter are the first we are going to add."

@@ -5,7 +5,7 @@ import classes from  './article.css'
 
 const Article = ({imgUrl,title,data}) => {
   return (
-    <div className="gpt3__blog-container_article">
+    <div className="gpt3__blog-container_article" id='application'>
       <div className="gpt3__blog-container_article-image">
         <img
           src = {imgUrl} alt='blog'

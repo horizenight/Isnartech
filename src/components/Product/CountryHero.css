@@ -1,0 +1,500 @@
+.country__hero {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://ibb.co/YTCCy3g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.country__hero__agriculture {
+    background-color: #182342;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__canada {
+        background-image: url(https://ibb.co/YTCCy3g);
+        height: 1200px;
+    }
+}
+
+
+.country__hero__usa {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://ibb.co/YTCCy3g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__usa {
+        background-image: url(https://ibb.co/YTCCy3g);
+        height: 1100px;
+    }
+}
+
+
+.country__hero__uk {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/uk_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__uk {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/uk_country_mobile.webp);
+        height: 1100px;
+    }
+}
+
+
+.country__hero__portugal {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/portugal_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__portugal {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/portugal_country_mobile.webp);
+        height: 1100px;
+    }
+}
+
+.country__hero__greece {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/greece_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__greece {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/greece_country_mobile.webp);
+        height: 1100px;
+    }
+}
+
+
+.country__hero__spain {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/spain_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__spain {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/spain_country_mobile.webp);
+        height: 1100px;
+    }
+}
+
+
+.country__hero__grenada {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/grenada_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__grenada {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/grenada_country_mobile.webp);
+    }
+}
+
+
+.country__hero__antigua {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/antigua_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__antigua {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/antigua_country_mobile.webp);
+    }
+}
+
+
+.country__hero__stlucia {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/stlucia_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__stlucia {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/stlucia_country_mobile.webp);
+    }
+}
+
+
+.country__hero__uae {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/uae_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__uae {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/uae_country_mobile.webp);
+    }
+}
+
+.country__hero__australia {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/australia_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__australia {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/australia_country_mobile.webp);
+    }
+}
+
+
+.country__hero__newzealand {
+    background-color: #182342;
+    /* height: 900px; */
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://images.pexels.com/photos/7648050/pexels-photo-7648050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    filter: blur(1.5x);
+  -webkit-filter: blur(0.25px);
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__newzealand {
+        background-image: url(https://images.pexels.com/photos/7648050/pexels-photo-7648050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        
+    }
+}
+
+
+.country__hero__singapore {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/singapore_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__singapore {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/singapore_country_mobile.webp);
+    }
+}
+
+.country__hero__malta {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/malta_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__malta {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/malta_country_mobile.webp);
+    }
+}
+
+.country__hero__ireland {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/ireland_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__ireland {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/ireland_country_mobile.webp);
+    }
+}
+
+.country__hero__italy {
+    background-color: #182342;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-image: url(https://d34od1rbaqrsd3.cloudfront.net/italy_country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .country__hero__italy {
+        background-image: url(https://d34od1rbaqrsd3.cloudfront.net/italy_country_mobile.webp);
+    }
+}
+
+
+
+.country-title {
+    position: absolute;
+    width: 1105.21px;
+    height: 119px;
+    left: 116px;
+    top: 258px;
+    font-family: 'LibreBaskerville-Regular', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #182342;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 599px) {
+    .country-title {
+        width: 240px;
+        left: 48px;
+        top: 245px;
+        font-size: 64px;
+    }
+}
+
+.country-title--small {
+    position: absolute;
+    width: 1105.21px;
+    height: 119px;
+    left: 116px;
+    top: 258px;
+    font-family: 'LibreBaskerville-Regular', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #182342;
+    z-index: 1;
+}
+
+@media screen and (max-width: 599px) {
+    .country-title--small {
+        width: 240px;
+        left: 48px;
+        top: 245px;
+        font-size: 50px;
+    }
+}
+
+.category {
+    position: absolute;
+    height: 27px;
+    left: 125px;
+    top: 145px;
+    font-family: 'GothicA1-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.63em;
+    color: #000;
+    z-index: 1;
+}
+
+@media screen and (max-width: 599px) {
+    .category {
+        width: 70%;
+        left: 52px;
+        top: 140px;
+        font-size: 14px;
+        display: flex;
+        letter-spacing: 0.2em;
+    }
+}
+
+.journey__button {
+    font-family: 'GothicA1-Regular', sans-serif;
+    font-weight: 600;
+    border: 1px solid #162f72;
+    background: #182342;
+    color: white;
+    font-size: 18px;
+    height: 56px;
+    border-radius: 2px;
+    padding: 16px 64px 16px 64px;
+    align-items: center;
+    position:absolute;
+    margin-left: 120px;
+    margin-top: 40%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 599px) {
+    .journey__button {
+        
+    font-weight: 400;
+    background: #182342;
+    color: white;
+    font-size: 16px;
+    height: 56px;
+    margin-left: 56px;
+    margin-top: 120%;
+    z-index: 1;
+    }
+}
+
+.journey__button:hover {
+    cursor: pointer;
+    transition: all ease-in 100ms;
+    border: 1px solid #162f72;
+    background: #162f72;
+}
+
+.scrolling__nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-top: 399px;
+    margin-left: auto;
+    background: #182342;
+    width: 339px;
+    height: 40%;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 599px) {
+    .scrolling__nav {
+        margin-left: 8%;
+        margin-top: 650px;
+        height: 32%;
+    }
+}
+
+.scrolling__nav--small {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-top: 399px;
+    margin-left: auto;
+    background: #182342;
+    width: 339px;
+    height: 34%;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 599px) {
+    .scrolling__nav--small {
+        margin-left: 10%;
+        margin-top: 700px;
+        height: 25%;
+    }
+}
+
+.scrolling__link {
+    font-family: 'GothicA1-Regular', sans-serif;
+    padding: 20px 10px 20px 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.scrolling__link:hover {
+    background-color:#162f72;
+    font-weight: bolder;
+}
