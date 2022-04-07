@@ -14,6 +14,9 @@ import EducationalInstituteDigitalisation from './pages/EducationalInstituteDigi
 import SmartTrafficManagement from './pages/SmartTrafficManagement'
 import IntelligentAgricultureManagementSystem from './pages/IntelligentAgricultureManagementSystem'
 import AutoDefectDetection from './pages/AutoDefectDetection'
+import InstallationPage from './pages/InstallationPage'
+import MaintainancePage from './pages/MaintainancePage'
+import CustomerSupport from './pages/CustomerSupport'
 
 function App() {
   
@@ -69,6 +72,18 @@ function App() {
        </Route>
      </Switch>
       
+
+      {/* Services & support  */}
+      <Route exact path='/installation'>
+      <InstallationPage/>
+       </Route>
+      <Route exact path='/maintenance'>
+      <MaintainancePage/>
+       </Route>
+      <Route exact path='/customer-support'>
+      <CustomerSupport/>
+       </Route>
+
     
   
      

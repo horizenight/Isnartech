@@ -20,7 +20,7 @@ const MainPage = () => {
       <Features/>
       {/* <Possibility/> */}
       <Cta/>
-      <Blog/>
+      {/* <Blog/> */}
       <Footer/>
     </>
   )

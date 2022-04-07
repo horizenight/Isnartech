@@ -5,7 +5,7 @@ import './CountryHero.css';
 
 
 
-function HeroSchoolManagement ({name,Background}) {
+function HeroSchoolManagement ({name,Background, cta=true}) {
     return (
         <div className='country__hero__agriculture' style={{
             backgroundImage: `url(${Background})`
@@ -22,7 +22,7 @@ function HeroSchoolManagement ({name,Background}) {
                         Start Your Journey
                     </button>
             </Link> */}
-            <div className="scrolling__nav--small">
+            {cta && <div className="scrolling__nav--small">
                 <a to="about__country" smooth={true} duration={1000}>
                     <span className="scrolling__link">&nbsp;&nbsp;&nbsp;&nbsp;About Product</span>
                 </a>
@@ -33,7 +33,7 @@ function HeroSchoolManagement ({name,Background}) {
                 <a to="immigration-call" target="_blank" style={{ textDecoration: 'none'}}>
                     <span className="scrolling__link">&nbsp;&nbsp;&nbsp;&nbsp;Contact us</span>
                 </a>
-            </div>
+            </div>}
     </div>    
     )
 }

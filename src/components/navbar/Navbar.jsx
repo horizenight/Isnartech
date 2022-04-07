@@ -21,7 +21,7 @@ const Menu = () => {
           <p><a href="#blog">Application</a></p> */}
 
           <ul className="menus">
-          <p><a href="#whpt3">About us</a></p>
+          <p><a href="/#whpt3">About us</a></p>
         {menuItems.map((menu, index) => {
           const depthLevel = 0;
           return <>
@@ -32,7 +32,7 @@ const Menu = () => {
 
           </>
         })}
-        <p><a href="#application">Application</a></p>
+        {/* <p><a href="#application">Application</a></p> */}
       </ul>
   </>
 }
@@ -63,7 +63,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Portfolio</p>
+        <p>Collaborations</p>
         <button type="button">Contact us!</button>
       </div>
 
