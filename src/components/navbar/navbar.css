@@ -43,7 +43,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 49px;
     text-transform: capitalize;
 
     margin: 0 1rem;
@@ -160,14 +160,27 @@
 
 .menu-items {
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .menu-items a {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   font-size: inherit;
   color: inherit;
   text-decoration: none;
+
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+
 
   
 }
@@ -179,6 +192,16 @@
   background-color: transparent;
   cursor: pointer;
   width: 100%;
+
+  color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
 
 
 }

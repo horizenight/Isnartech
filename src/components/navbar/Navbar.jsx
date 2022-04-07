@@ -25,10 +25,10 @@ const Menu = () => {
         {menuItems.map((menu, index) => {
           const depthLevel = 0;
           return <>
-          <p>
+        
 
           <MenuItems items={menu} key={index} depthLevel={depthLevel} />
-          </p>
+          
 
           </>
         })}
