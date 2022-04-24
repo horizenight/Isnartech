@@ -113,7 +113,7 @@ const Navbar = () => {
             
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Portfolio</p>
+            <p>Collaborations</p>
 
             <Link to='/contact'>
 

@@ -10,7 +10,9 @@ const WhatGPT3 = () => {
       <div className="gpt3__whatgpt3-feature">
         <Feature
           title="Who are We?"
-          text="The company is mainly focused on selling IoT based environmental cleaning products in order to keep outside breathing air clean. Air pollution, which is caused by human natural resources, is getting a bigger threat to the living beings of the world. A lot of technical research is on its way to reduce the pollutants of the air in order to make the air breathable."
+          text="We’re a team of experts with decades of experience in analytics, machine learning, business process design and development. At ISNARTECH using machine learning, image processing computer vision, deep learning and artificial intelligence-based technologies we saw an opportunity to solve everyday business problems for our clients. Our team works with clients by understanding their business processes, mapping them out, design custom solutions customized to fit the specific needs of each client, and optimizing them for greater productivity. We are deeply focused on helping organizations in education sectors, healthcare, community security, and willing to expand our client base in manufacturing, automotive, retails, consumer goods, electronics, agriculture and more.
+
+"
 
           image = {null}
           imageAlt={null}
@@ -18,7 +20,7 @@ const WhatGPT3 = () => {
       </div>
       <div className="gpt3__whatgpt3-heading">
         <h1 className="gradient__text">
-          The possibilities are beyond your imagination
+        We are harnessing the power of AI to automate the laborious, repetitive tasks that sap precious time and resources from your business.
         </h1>
         <p>Explore The Products</p>
       </div>

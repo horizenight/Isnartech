@@ -1,0 +1,7 @@
+.agricultureList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px white;
+    background-color:#182342;
+}

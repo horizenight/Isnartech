@@ -24,6 +24,7 @@ function CountryPerks({name, a1, a2, a3, b1, b2, b3, c1, c2, c3, d1, d2, d3, e1,
                     title={c1}
                     description={c2}
                 />
+               
             </div>
             <div className="perks__row">
                 <PerkPoint 

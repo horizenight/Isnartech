@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-      <h1 className="gradient__text"> An IoT based environmental cleaning products </h1>
-      <p> To understand the full flow, one need to understand every aspect of requirement and hence we are moving forward to deliver services such as artificial intelligence for autonomous vehicles, basic problems, smart cities and many more !</p>
+      <h1 className="gradient__text"> AI based solution for Business  </h1>
+      <p> ISNARTECH is a leading AI based solution provider for business.Our team works with clients by understanding their business processes, mapping them out, design custom solutions customized to fit the specific needs of each client, and optimizing them for greater productivity and accuracy.</p>
       <div className="gpt3__header-content__input">
         <input type='email' placeholder='Your Email Address'></input>
         <button type="button">Get Updates</button>

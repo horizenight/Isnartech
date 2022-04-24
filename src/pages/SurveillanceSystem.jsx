@@ -6,22 +6,21 @@ import CountryCTA from '../components/Product/CountryCta'
 import CountryPerks from '../components/Product/CountryPerks'
 import HeroSchoolManagement from '../components/Product/HeroSchoolManagement'
 
-const SmartTrafficManagement = () => {
+const SurveillanceSystem = () => {
   return (
     <>
     <Navbar/>
 
-    <HeroSchoolManagement name="Smart Traffic Management"/>
+    <HeroSchoolManagement name="Smart Surveillance &Society Security Management"/>
 
 <AboutProduct
                 country="Smart Traffic Management"
-                description="New Zealand is one of the world's most stable and well-governed countries, making it an appealing destination for investment, business, and family life. The country is consistently ranked in the top ten in terms of investor protection, business startup, and ease of doing business."
+                description="The tech-savvy generation usually requires smart technologies & apps which help them interact with the society smoothly.This is where Smart Surveillance & Society Security Management services steps in! A one-stop solution for a smart societies and public places. We are developing a smart solution to provide extra security in societies and other public places. This solution has capability to track people, vehicles and record unusual activities in database."
                 capital="Wellington"
                 languages="English"
                
                 symbol="https://images.unsplash.com/photo-1599725427295-6ed79ff8dbef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MTE1MzEyNDN8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                currency="New Zealand Dollar"
-                climate="14 ℃ to 19 ℃"
+                
             />
 
 <CountryPerks
@@ -56,7 +55,7 @@ const SmartTrafficManagement = () => {
   )
 }
 
-export default SmartTrafficManagement
+export default SurveillanceSystem
 
 
 

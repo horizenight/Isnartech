@@ -15,56 +15,29 @@ export const menuItems = [
                submenu: [
 
                 {
-                    title: "Educational Institute Digitalisation",
-                    pathname:'/educational-institute-digitalistation'
+                    title: "School Digitalization System",
+                    pathname:'/School-Digitalization-System'
                    },
+                   {
+                    title: "Automated Defect Inspection",
+                    pathname:"/Automated-Defect-Inspection",},
+
+                   {
+                    title: "Hospital Management System",
+                    pathname:"/Hospital-Management-System",},
                    {
                     title: "Intelligent Agriculture Management System",
                     pathname:"/agricultral-management",},
                    {
-                    title: "Auto Defect Detection",
-                    pathname:"/defect-detection",},
+                    title: "Autonomous driving technology (ADAS)",
+                    pathname:"Autonomous-driving-technology",},
                    {
-                    title: "Smart Parking",
-                    pathname:"/smart-parking",},
-                   {
-                    title: "Surveillance System",
+                    title: "Smart Surveillance &Society Security Management",
                     pathname:"/surveillance-system",},
-                   {
-                    title: "Safe and Smart Society",
-                    pathname:"/safe-smart-society",},
-                   {
-                    title: "Smart Monitoring System",
-                    pathname:"/smart-monitoring-system",},
-                   {
-                    title: "Employee Management System",
-                    pathname:"/employee-management-system",},
-                  
+          
+                 
                 
-                   {
-                    title: "Smart Traffic Management",
-                    pathname:"/smart-traffic-management",},
-                   {
-                    title: "Machine Automation",
-                    pathname:"/machine-automation",},
-                   {
-                    title: "society management system",
-                    pathname:"/society-mangement",},
-                   {
-                    title: "Autonomous Vehicle",
-                    pathname:"/autonomous-vehicle",},
-                   {
-                    title: "Smart Solution to Financial Institutes",
-                    pathname:"/smart-solution",},
-                   {
-                    title: "Intelligent Land Registering",
-                    pathname:"/land-registration",},
-                   {
-                    title: "Disease Detection System",
-                    pathname:"/disease-detection",},
-                   {
-                    title: "Patient Physical Data Measurement",
-                    pathname:"/Patient-data-measurement",},
+                  
                    
    
    

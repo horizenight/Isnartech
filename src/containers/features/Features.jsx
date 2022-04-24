@@ -5,18 +5,18 @@ import './features.css';
 const featuresData = [
  
 {
-  title: '12 YEARS OF EXPERIENCE',
-  text: 'The company is founded by Shiv Kumar who has an experience of 12 years in developing new technology in semiconductor domain (Memory, Protection, ASICs, IoTs, AI, etc.) He holds a Master of Technology from IITK.'
+  title: 'FIRST OF ALL',
+  text: 'Traditional approaches to solving business problems are often very manual, and therefore can be expensive, time-consuming and error prone. However, advances in artificial intelligence (AI) and deep-learning technologies have made it possible to develop automated and more intelligent systems that reduce costs and improve operations.'
 
 }
 ,
 {
-  title:'QUALIFIED EXPERTS',
-  text:'All the products are developed by the experts from China and India.'
+  title:'NOT TO MENTION',
+  text:'We provide customized AI solution to businesses.Instead of developing these technologies in-house, simplifying how they are applied along with image data, numerical data and analytics would help businesses solve everyday problems. We are helping business to automate everyday processes like automatic attendance and student/employee behaviours in school management system, automatic defect identification and classification at inspection stage in manufacturing processes, attendance and behavior analysis of patients and employees in hospital and HR management system, smart surveillance and security analysis in community management system etc.'
 },
 {
-  title:'BEST CUSTOMER SERVICES',
-  text:'We give 24x7 service to our customers include maintainance , repairing and installation at the site.'
+  title:'GETTING EXCITED ABOUT PRODUCTS',
+  text:'Your Journey to AI.We help you to identify the key areas where AI can add value for your business. We build AI model for your business and customize as per your business needs. At ISNARTECH we believe in building collaborative partnership with our clients based on trust and belief systems.'
 }
 
 ];
@@ -24,7 +24,9 @@ const featuresData = [
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
+      <h1 className="gradient__text">We are harnessing the power of AI to automate the laborious, repetitive tasks that sap precious time and resources from your business.
+
+</h1>
       <p>Why should you choose us ?</p>
     </div>
     <div className="gpt3__features-container">

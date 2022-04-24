@@ -11,7 +11,7 @@ import SchoolManagement from './pages/SchoolMangement'
 import BioSensor from './pages/BioSensor'
 import ContactUs from './pages/ContactUs'
 import EducationalInstituteDigitalisation from './pages/EducationalInstituteDigitalisation'
-import SmartTrafficManagement from './pages/SmartTrafficManagement'
+import SurveillanceSystem from './pages/SurveillanceSystem'
 import IntelligentAgricultureManagementSystem from './pages/IntelligentAgricultureManagementSystem'
 import AutoDefectDetection from './pages/AutoDefectDetection'
 import InstallationPage from './pages/InstallationPage'
@@ -36,7 +36,7 @@ function App() {
 
       {/* Services */}
 
-       <Route exact path='/educational-institute-digitalistation'>
+       <Route exact path='/School-Digitalization-System'>
      <EducationalInstituteDigitalisation/>
        </Route>
 
@@ -44,7 +44,7 @@ function App() {
        <IntelligentAgricultureManagementSystem/>
        </Route>
 
-       <Route exact path='/defect-detection'>
+       <Route exact path='/Automated-Defect-Inspection'>
        <AutoDefectDetection/>
        </Route>
 
@@ -52,8 +52,8 @@ function App() {
 
 
        {/* Products */}
-       <Route exact path='/smart-traffic-management'>
-       <SmartTrafficManagement/>
+       <Route exact path='/surveillance-system'>
+       <SurveillanceSystem/>
        </Route>
 
      

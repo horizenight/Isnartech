@@ -2,17 +2,25 @@ import React from 'react'
 import logo4 from '../../../assets/logo4.png'
 import './footer.css'
 
-const Footer = () => {
+const Footer = ({show} ) => {
   return (
     <div className="gpt3__footer section__padding" id='contactUs'>
-    <div className="gpt3__footer-heading">
+  { show && <div className="gpt3__footer-heading">
       <h1 className="gradient__text">
-      Do you want to step in to the future before others
+      We have an amazing team who works relentlessly and are always excited about the future
       </h1>
+      <p>We have a team of amazing people who work relentlessly to build an awesome platform that solves real problems. We are very excited about the future and are looking forward to a long-lasting journey with all our clients.</p>
     </div>
+    
+    }
+    {
+      show && 
     <div className="gpt3__footer-btn">
       <p>Contact Us Now !</p>
     </div>
+    }
+
+
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">

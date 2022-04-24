@@ -33,7 +33,7 @@
 
 .gpt3__features-container_feature-text {
     flex: 2;
-    max-width: 390px;
+    max-width: 750px;
     display: flex;
 }
 
