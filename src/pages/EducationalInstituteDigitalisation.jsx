@@ -69,6 +69,7 @@ const EducationalInstituteDigitalisation = () => {
                 url1="/"
                 url2="/"
                 url3="/"
+                show={true}
               
             />
             <Footer show = {false}/>

@@ -17,6 +17,9 @@ import AutoDefectDetection from './pages/AutoDefectDetection'
 import InstallationPage from './pages/InstallationPage'
 import MaintainancePage from './pages/MaintainancePage'
 import CustomerSupport from './pages/CustomerSupport'
+import HospitalMangementSystem from './pages/HospitalManagementSystem'
+import AutonomousDrivingTech from './pages/AutonomousDrivingTech'
+
 
 function App() {
   
@@ -37,7 +40,7 @@ function App() {
       {/* Services */}
 
        <Route exact path='/School-Digitalization-System'>
-     <EducationalInstituteDigitalisation/>
+      <EducationalInstituteDigitalisation/>
        </Route>
 
        <Route exact path='/agricultral-management'>
@@ -49,7 +52,13 @@ function App() {
        </Route>
 
 
+      <Route exact path = '/Hospital-Management-System'>
+    <HospitalMangementSystem/>
+      </Route>
 
+      <Route exact path = '/Autonomous-driving-technology'>
+    <AutonomousDrivingTech/>
+      </Route>
 
        {/* Products */}
        <Route exact path='/surveillance-system'>

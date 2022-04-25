@@ -31,7 +31,7 @@ const InstallationPage = () => {
 <CountryCTA
                 punchline="Contact for Services"
                 photo="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                cta="Get in Touch"
+                cta1="Get in Touch"
                 url="/immigration-call"
             />
     </>
