@@ -6,6 +6,8 @@ import CountryPerks from '../components/Product/CountryPerks'
 import HeroSchoolManagement from '../components/Product/HeroSchoolManagement'
 
 const SchoolManagement = () => {
+
+  
   return (
     <>
     <Navbar/>

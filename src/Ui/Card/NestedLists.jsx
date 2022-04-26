@@ -19,13 +19,23 @@ export default function NestedList() {
     
     <List
       sx={{ width: '100%', maxWidth: 360 ,
-      color:'white',}}
+      color:'#81AFDD',
+      backgroundColor:'#031B34;',
+      borderRadius:'5px',padding:'0.5px 10px',}}
       component="nav"
       aria-labelledby="nested-list-subheader"
       subheader={
-        <ListSubheader component="div" id="nested-list-subheader">
+        <div className="listTitle">
+
+        <ListSubheader disableSticky={true}  component="div" id="nested-list-subheader"
+        color="inherit"
+        sx={{fontSize:'2rem',
+        }}
+        
+        >
           We are focusing on 
         </ListSubheader>
+        </div>
       }
     >
     
@@ -43,7 +53,7 @@ export default function NestedList() {
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          <ListItemButton sx={{ pl: 4 , pb:0}}>
+          <ListItemButton sx={{  pl: 4 , pb:0}}>
          
             <ListItemText primary="• Disease" />
           </ListItemButton>

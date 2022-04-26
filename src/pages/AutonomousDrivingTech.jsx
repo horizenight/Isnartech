@@ -8,58 +8,71 @@ import CountryCTA from '../components/Product/CountryCta'
 import CountryPerks from '../components/Product/CountryPerks'
 import HeroSchoolManagement from '../components/Product/HeroSchoolManagement'
 import { Footer } from '../containers'
+import NestedList from '../Ui/Card/NestedLists'
+
+import './AgricultureList.css'
+import { ADASfeatures } from './ProductFeatures/ADAS'
+
 
 const AutonomousDrivingTech = () => {
+
+  
   return (
     <>
     <Navbar/>
 
-    <HeroSchoolManagement name="Hospital Management System "
-      Background="https://images.unsplash.com/photo-1485848395967-65dff62dc35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvc3BpdGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    <HeroSchoolManagement name="Autonomous driving technology (ADAS)"
+      Background="https://images.unsplash.com/photo-1610608485978-485fce6e8da9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     />
 
 <AboutProduct
-                country="Hospital Management System"
-                description="ISNARTECH School Digitalization System is a comprehensive solution that helps schools transform their operations and improve student outcomes. The system automates attendance, behavior analysis, performance analysis, and exam fraud reduction to help schools improve efficiency and reduce student dropout. Additionally, the ID card scan-based student registration and admission process streamlines school operations and provides a centralized database for school information. The system's deep learning and AI-based technology provides accurate and actionable insights to help schools make informed decisions."
+                features={ADASfeatures}
+                country="Autonomous driving technology (ADAS)"
+                description="Human error is directly or indirectly basic cause of almost all vehicle accidents.These accidents can be reduced and avoided with Advanced Driver Assistance Systems (ADAS). The role of ADAS is to give warning signal to the driver and people sitting in the car. The ADAS warnings are highly useful reducing the number of car and other vehicle accidents."
               show = {true}
-               
-                symbol="https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvc3BpdGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+               ListTitle="Essential safety-critical ADAS applications include:"
+                symbol="https://images.unsplash.com/photo-1597218394013-3f59781ce720?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRyaXZpbmclMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 climate="14 ℃ to 19 ℃"
+
+                simpleListToggle={true}
+
+                
             />
 
-<CountryPerks
-                name="Hospital Management System"
-                a1="Digitalization of Hospital under one platform"
-                a2="ISNARTECH Hospital Management System is a technology-driven hospital management solution that is designed to optimize the efficiency and productivity of your organization. A wide range of verticals and diverse needs of hospitals are planned with the application"
-                a3="https://img.icons8.com/cotton/344/market--v2.png"
+<h3 style={{
 
-                b1="All your data under one umbrella"
-                b2="ISNARTECH help in building smart cloud platform to provide a complete solution for managing your hospital under HMS. It’s a complete hospital running system, that captures records and practice patterns of doctors and patients and makes intelligent decisions based on that data. "
-                b3="https://img.icons8.com/cotton/344/market--v2.png"
 
-                c1="Your whole medical information at your fingertips"
-                c2="ISNARTECH HMS is a complete solution for hospitals providing a wide range of medical records management that helps health care organizations to collect, manage and distribute documents securely. It helps you to gain an edge over your competitors by effortlessly managing all the documents from a single platform and taking business decisions based on data analytics"
-                c3="https://img.icons8.com/cotton/344/market--v2.png"
+    position:'relative',
+    zIndex:'1',
+    padding:'30px 100px 30px 400px ',
+   
+    width:'80%',
 
-                d1="Enhances healthcare delivery"
-                d2="ISNARTECH HMS can spot medical trends in real time, give best-practices to doctors and patients, and enhance the quality of healthcare delivery"
-                d3="https://img.icons8.com/cotton/344/market--v2.png"
+   
+    
+    
+    fontFamily: 'GothicA1-Regular',
+    fontStyle: 'normal',
+    fontWeight: '300',
+    fontSize: '18px',
+    lineHeight: '22px',
+    color: '#FFFFFF',
+    
+ 
+    
+    
 
-                e1="Easy to use for everyone "
-                e2="ISNARTECH HMS ha an intuitive user experience which is what makes it easy for non-technical users to use"
-                e3="https://img.icons8.com/cotton/344/market--v2.png"
+}}> 
+Human error is directly or indirectly basic cause of almost all vehicle accidents.These accidents can be reduced and avoided with Advanced Driver Assistance Systems (ADAS). The role of ADAS is to give warning signal to the driver and people sitting in the car. The ADAS warnings are highly useful reducing the number of car and other vehicle accidents.
+</h3>
 
-                f1="Full Security And confidentiality"
-                f2="ISNARTECH keeps the data protected and tightly secured."
-                f3="https://img.icons8.com/cotton/344/market--v2.png"
-                
-                />
+
 
 <CountryCTA
                 punchline="
 Need more information
 "
-                photo="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9zcGl0YWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                photo="https://images.unsplash.com/photo-1568789092014-f16cd15e04d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGRyaXZpbmclMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 cta1="Get in Touch"
                 cta2="Enroll your school"
                 cta3="register for workshop"

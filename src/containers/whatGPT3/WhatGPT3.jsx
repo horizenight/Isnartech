@@ -4,6 +4,9 @@ import { Feature } from "../../components/index";
 
 import "./whatGpt3.css";
 
+import iot from '../../../assets/images.jpg'
+import ai from '../../../assets/blog02.png'
+
 const WhatGPT3 = () => {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="whpt3">
@@ -30,13 +33,13 @@ const WhatGPT3 = () => {
         <Feature
           title="IOT Devices"
           text="Our next series of products is for smart cities and smart industries. They are based on Internet Of Things technology. Smart electric and water meter are the first we are going to add."
-          image = {'https://isnartech.com/images/up1.png'}
+          image = {iot}
           imageAlt={'Iot Devices'}
         />
         <Feature
           title="Artificial Intelligence"
           text="Our next series of products is API coding. We develop API based on different technology."
-          image = {'https://isnartech.com/images/apimg.jpg'}
+          image = {ai}
           imageAlt={'Ai Devices'}
 
         />

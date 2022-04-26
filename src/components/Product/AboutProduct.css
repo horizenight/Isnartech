@@ -63,6 +63,7 @@
 
 .about__country--right {
     margin-left: 80px;
+    
 }
 
 @media screen and (max-width: 599px) {
@@ -75,13 +76,14 @@
     display: flex;
     width: 80%;
     margin-left: 50px;
-    padding: 0 80px 0px 0px;
+    padding: 0 80px 80px 0px;
     font-family: 'GothicA1-Regular', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    
 }
 
 @media screen and (max-width: 599px) {

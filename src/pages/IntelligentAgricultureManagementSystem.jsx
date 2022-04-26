@@ -5,6 +5,7 @@ import AboutProduct from '../components/Product/AboutProducts'
 import CountryCTA from '../components/Product/CountryCta'
 import CountryPerks from '../components/Product/CountryPerks'
 import HeroSchoolManagement from '../components/Product/HeroSchoolManagement'
+import { Footer } from '../containers'
 import Card from '../Ui/Card/Card'
 import NestedList from '../Ui/Card/NestedLists'
 
@@ -25,15 +26,14 @@ const IntelligentAgricultureManagementSystem = () => {
                
                 symbol="https://images.unsplash.com/photo-1559884743-74a57598c6c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFncmljdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
      
+            
+            toggle = {true}
             />
  {/* <Card image={iot} title={'IOT Devices'} text={'Our next series of products is for smart cities .'}/> */}
 
 
 
-<div className='agricultureList'>
-<NestedList/>
 
-</div>
 
 
 <CountryCTA
@@ -42,6 +42,11 @@ const IntelligentAgricultureManagementSystem = () => {
                 cta1="Get in Touch"
                 url="/"
             />
+
+            
+
+<Footer show = {false}/>
+          
     </>
   )
 }
