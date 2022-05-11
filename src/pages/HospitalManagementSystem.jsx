@@ -20,7 +20,7 @@ const HospitalManagementSystem = () => {
 
 <AboutProduct
                 country="Hospital Management System"
-                description="ISNARTECH School Digitalization System is a comprehensive solution that helps schools transform their operations and improve student outcomes. The system automates attendance, behavior analysis, performance analysis, and exam fraud reduction to help schools improve efficiency and reduce student dropout. Additionally, the ID card scan-based student registration and admission process streamlines school operations and provides a centralized database for school information. The system's deep learning and AI-based technology provides accurate and actionable insights to help schools make informed decisions."
+                description="ISNARTECH HMS is a complete solution for managing your hospital. It is based on deep learning and AI technology, which makes it extremely efficient and accurate. It comes with a Book Appointment feature, which allows you to manage appointments easily. You can also search records of patients, doctors, and employees easily. The E consultation feature makes it easy to consult with doctors online. The billing feature is very user-friendly and helps you keep track of your expenses easily. The surveillance and security features are top-notch and help you keep your hospital safe and secure"
               show = {true}
                
                 symbol="https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvc3BpdGFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -28,7 +28,7 @@ const HospitalManagementSystem = () => {
             />
 
 <CountryPerks
-                name="Hospital Management System"
+                name="H M S"
                 a1="Digitalization of Hospital under one platform"
                 a2="ISNARTECH Hospital Management System is a technology-driven hospital management solution that is designed to optimize the efficiency and productivity of your organization. A wide range of verticals and diverse needs of hospitals are planned with the application"
                 a3="https://img.icons8.com/cotton/344/market--v2.png"

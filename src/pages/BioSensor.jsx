@@ -14,8 +14,7 @@ const BioSensor = () => {
 
 <AboutProduct
                 country="BioSensor"
-                description="New Zealand is one of the world's most stable and well-governed countries, making it an appealing destination for investment, business, and family life. The country is consistently ranked in the top ten in terms of investor protection, business startup, and ease of doing business."
-                capital="Wellington"
+                description="Will be Updated Soon "
                 languages="English"
                
                 symbol="https://images.unsplash.com/photo-1599725427295-6ed79ff8dbef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MTE1MzEyNDN8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
@@ -24,24 +23,31 @@ const BioSensor = () => {
             />
 
 <CountryPerks
-                name="BioSensor"
-                a1="Quality Living"
-                a2="High standards of living"
-                a3="https://d34od1rbaqrsd3.cloudfront.net/icon_travel.svg"
-                b1="Diverse People"
-                b2="Multicultural population"
-                b3="https://d34od1rbaqrsd3.cloudfront.net/icon_family.svg"
-                c1="Less Population"
-                c2="Low population density"
-                c3="https://d34od1rbaqrsd3.cloudfront.net/icon_global.png"
-                d1="Socio-economic Stability"
-                d2="Political, social, and economic stability"
-                d3="https://d34od1rbaqrsd3.cloudfront.net/icon_markets.svg"
-                e1="Legal System"
-                e2="Sound legal system based on English law"
-                e3="https://d34od1rbaqrsd3.cloudfront.net/icon_education.svg"
-                f1="Taxation"
-                f2="Strong tax treaty network with a large number of counter parties"
+            
+                name="H M S"
+                a1="Digitalization of Hospital under one platform"
+                a2="ISNARTECH Hospital Management System is a technology-driven hospital management solution that is designed to optimize the efficiency and productivity of your organization. A wide range of verticals and diverse needs of hospitals are planned with the application"
+                a3="https://img.icons8.com/cotton/344/market--v2.png"
+
+                b1="All your data under one umbrella"
+                b2="ISNARTECH help in building smart cloud platform to provide a complete solution for managing your hospital under HMS. It’s a complete hospital running system, that captures records and practice patterns of doctors and patients and makes intelligent decisions based on that data. "
+                b3="https://img.icons8.com/cotton/344/market--v2.png"
+
+                c1="Your whole medical information at your fingertips"
+                c2="ISNARTECH HMS is a complete solution for hospitals providing a wide range of medical records management that helps health care organizations to collect, manage and distribute documents securely. It helps you to gain an edge over your competitors by effortlessly managing all the documents from a single platform and taking business decisions based on data analytics"
+                c3="https://img.icons8.com/cotton/344/market--v2.png"
+
+                d1="Enhances healthcare delivery"
+                d2="ISNARTECH HMS can spot medical trends in real time, give best-practices to doctors and patients, and enhance the quality of healthcare delivery"
+                d3="https://img.icons8.com/cotton/344/market--v2.png"
+
+                e1="Easy to use for everyone "
+                e2="ISNARTECH HMS ha an intuitive user experience which is what makes it easy for non-technical users to use"
+                e3="https://img.icons8.com/cotton/344/market--v2.png"
+
+                f1="Full Security And confidentiality"
+                f2="ISNARTECH keeps the data protected and tightly secured."
+                f3="https://img.icons8.com/cotton/344/market--v2.png"
                 
                 />
 

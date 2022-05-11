@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo4 from '../../../assets/logo4.png'
 import './footer.css'
 
@@ -24,29 +25,43 @@ const Footer = ({show} ) => {
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
+      <Link to="/">
+
       <img src={logo4} alt="logo" />
-      <p>32D, Sunny Enclave, Sector 125, Mohali, Chandigarh, 140310, India.</p>
+      </Link>
+      <p>D-302, Tower D, Sector-102
+Gurgaon, India.</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <h4>Overons</h4>
+       <a href="">
         <h4>Social Media</h4>
-        <h4>Counters</h4>
+       </a>
+      <Link to="/contact">
+
         <h4>Contact</h4>
+      </Link>
       </div>
       <div className="gpt3__footer-links_div">
+      <a href="/#whpt3">
+
         <h4>Company</h4>
+      </a>
         <h4>Terms & Conditions</h4>
         <h4>Privacy Policy</h4>
-        <h4>Counters</h4>
-        <h4>Contact</h4>
+    
+       
       </div>
       <div className="gpt3__footer-links_div">
+      <Link to="/contact">
+
         <h4>Get in touch</h4>
-        <h4>32D, Sunny Enclave, Sector 125, Mohali, Chandigarh, 140310, India.</h4>
-        <h4>+91 6284071956</h4>
-        <h4>+91 7710455357</h4>
-        <h4>Email</h4>
+      </Link>
+        <h4>D-302, Tower D, Sector-102
+Gurgaon, India.</h4>
+        <h4>+91 6284071956(To be updated)</h4>
+        <h4>+91 7710455357(To be updated)</h4>
+        <h4>enquiries@isnartech.com</h4>
       </div>
     </div>
     <div className="gpt3__footer-copyright">

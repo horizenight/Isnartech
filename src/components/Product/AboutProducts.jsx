@@ -10,9 +10,9 @@ function AboutProduct({country, description , flag,symbol,image= true,toggle=fal
    
     return (
         <div className='about__country' id="about__country">
-           {image &&  <div className = "about__country--title">
+           {/* {image &&  <div className = "about__country--title">
                     About {country} &nbsp;&nbsp;&nbsp; <img src={flag} alt=""/>
-            </div>}
+            </div>} */}
             <div className="about__country--container">
                {image &&  <img className="about__country--symbol" src={symbol} alt="malta" />}
             

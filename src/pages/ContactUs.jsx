@@ -1,8 +1,23 @@
 import React from 'react'
+import ContactIndex from '../components/contact/ContactIndex'
+
+import { Navbar } from '../components'
+import {Footer } from '../containers'
+
 
 const ContactUs = () => {
   return (
-    <div>ContactUs in making</div>
+    <>
+    
+    
+    <Navbar/>
+    <ContactIndex/>
+    <Footer/>
+
+
+
+
+    </>
   )
 }
 

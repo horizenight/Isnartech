@@ -1,81 +1,87 @@
-import React from 'react'
+import React from "react";
 
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import { useState } from 'react'
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { useState } from "react";
 
-import logo4 from '../../../assets/logo4.png'
-import   './navbar.css'
+import logo4 from "../../../assets/logo4.png";
+import "./navbar.css";
 
-import {Link} from 'react-router-dom'
-
-import { menuItems } from './Items/MenuItems';
-import MenuItems from './MenuItems';
+import { menuItems } from "./Items/MenuItems";
+import MenuItems from "./MenuItems";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
-
-  return <>
-    {/* <p><a href="#home">Home</a></p>
+  return (
+    <>
+      {/* <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">About us</a></p>
           <p><a href="#possibility">Services</a></p>
           <p><a href="#features">Products</a></p>
           <p><a href="#blog">Application</a></p> */}
 
-          <ul className="menus">
-          <p><a href="/#whpt3">About us</a></p>
+      <ul className="menus">
+        <p>
+          <a href="/#whpt3">About us</a>
+        </p>
         {menuItems.map((menu, index) => {
           const depthLevel = 0;
-          return <>
-        
-
-          <MenuItems items={menu} key={index} depthLevel={depthLevel} />
-          
-
-          </>
+          return (
+            <>
+              <MenuItems items={menu} key={index} depthLevel={depthLevel} />
+            </>
+          );
         })}
         {/* <p><a href="#application">Application</a></p> */}
       </ul>
-  </>
-}
-
-
-
+    </>
+  );
+};
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
 
-
-
-  const [toggleMenu,setToggleMenu] = useState(false)
-
-  
   return (
-    <div className='gpt3__navbar'>
-    <div className="gpt3__navbar-links">
-    <Link to='/'>
-
-        <div className="gpt3__navbar-links_logo">
-          <img src={logo4} />
-         
-        </div>
-    </Link>
+    <div className="gpt3__navbar">
+      <div className="gpt3__navbar-links">
+        <Link to="/">
+          <div className="gpt3__navbar-links_logo">
+            <img src={logo4} />
+          </div>
+        </Link>
 
         <div className="gpt3__navbar-links_container">
-          <Menu/>
+          <Menu />
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Collaborations</p>
+      <Link to="/collaboration">
+                <p>Collaborations</p>
+              </Link>
+              <Link to="/contact">
+                
         <button type="button">Contact us!</button>
+              </Link>
       </div>
 
       <div className="gpt3__navbar-menu">
-        {toggleMenu
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
-          
+        {toggleMenu ? (
+          <RiCloseLine
+            color="#fff"
+            size={27}
+            onClick={() => setToggleMenu(false)}
+          />
+        ) : (
+          <RiMenu3Line
+            color="#fff"
+            size={27}
+            onClick={() => setToggleMenu(true)}
+          />
+        )}
+
         {toggleMenu && (
-        <div className="gpt3__navbar-menu_container scale-up-center">
-          <div className="gpt3__navbar-menu_container-links">
-            {/* <p><a href="#home">Home</a></p>
+          <div className="gpt3__navbar-menu_container scale-up-center">
+            <div className="gpt3__navbar-menu_container-links">
+              {/* <p><a href="#home">Home</a></p>
             <p><a href="#wgpt3">About Us</a></p>
             
             
@@ -85,21 +91,27 @@ const Navbar = () => {
             <p><a href="#features">Products</a></p>
             <p><a href="#blog">Application</a></p> */}
 
+              <ul className="menus">
+                <p>
+                  <a href="#whpt3">About us</a>
+                </p>
+                {menuItems.map((menu, index) => {
+                  const depthLevel = 0;
+                  return (
+                    <>
+                      <p>
+                        <MenuItems
+                          items={menu}
+                          key={index}
+                          depthLevel={depthLevel}
+                        />
+                      </p>
+                    </>
+                  );
+                })}
+              </ul>
 
-            <ul className="menus">
-          <p><a href="#whpt3">About us</a></p>
-        {menuItems.map((menu, index) => {
-          const depthLevel = 0;
-          return <>
-          <p>
-          
-          <MenuItems items={menu} key={index} depthLevel={depthLevel} />
-          </p>
-          </>
-        })}
-      </ul>
-
-            {/* {menuItems.map((menu, index) => {
+              {/* {menuItems.map((menu, index) => {
      return (
       <li className="menu-items" key={index}>
        <p>
@@ -108,25 +120,26 @@ const Navbar = () => {
       </li>
      );
     })} */}
+            </div>
+            <div className="gpt3__navbar-menu_container-links-sign">
+              <Link to="/collaboration">
+                <p>Collaborations</p>
+              </Link>
 
-    
-            
+              <button
+                type="button"
+                onClick={() => {
+                  Console.log("hellp");
+                }}
+              >
+                Contact us!
+              </button>
+            </div>
           </div>
-          <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Collaborations</p>
-
-            <Link to='/contact'>
-
-            <button type="button">Contact us!</button>
-            </Link>
-          </div>
-        </div>
         )}
       </div>
-
-    
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

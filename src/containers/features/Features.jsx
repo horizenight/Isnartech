@@ -24,7 +24,9 @@ const featuresData = [
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">We are harnessing the power of AI to automate the laborious, repetitive tasks that sap precious time and resources from your business.
+      <h1 className="gradient__text">
+
+      Text to Fill
 
 </h1>
       <p>Why should you choose us ?</p>

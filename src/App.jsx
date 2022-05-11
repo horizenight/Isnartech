@@ -19,6 +19,7 @@ import MaintainancePage from './pages/MaintainancePage'
 import CustomerSupport from './pages/CustomerSupport'
 import HospitalMangementSystem from './pages/HospitalManagementSystem'
 import AutonomousDrivingTech from './pages/AutonomousDrivingTech'
+import DropDownState from './components/Context/DropDownState'
 
 
 function App() {
@@ -27,11 +28,14 @@ function App() {
   return (
     <div className='App'>
 
+<DropDownState>
+
 
      <Switch>
        <Route exact path='/'>
        <MainPage/>
        </Route>
+       
        <Route exact path='/contact'>
        <ContactUs/>
        </Route>
@@ -95,7 +99,7 @@ function App() {
 
     
   
-     
+       </DropDownState>
       
     </div>
   )

@@ -19,8 +19,8 @@ const EducationalInstituteDigitalisation = () => {
     />
 
 <AboutProduct
-                country="School Digitalization System "
-                description="ISNARTECH School Digitalization System is a comprehensive solution that helps schools transform their operations and improve student outcomes. The system automates attendance, behavior analysis, performance analysis, and exam fraud reduction to help schools improve efficiency and reduce student dropout. Additionally, the ID card scan-based student registration and admission process streamlines school operations and provides a centralized database for school information. The system's deep learning and AI-based technology provides accurate and actionable insights to help schools make informed decisions."
+                country="S D S "
+                description="ISNARTECH S.D.S is a comprehensive solution that helps schools transform their operations and improve student outcomes. The system automates attendance, behavior analysis, performance analysis, and exam fraud reduction to help schools improve efficiency and reduce student dropout. Additionally, the ID card scan-based student registration and admission process streamlines school operations and provides a centralized database for school information. The system's deep learning and AI-based technology provides accurate and actionable insights to help schools make informed decisions."
               show = {true}
                
                 symbol="https://images.unsplash.com/photo-1599725427295-6ed79ff8dbef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MTE1MzEyNDN8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
@@ -29,7 +29,7 @@ const EducationalInstituteDigitalisation = () => {
             />
 
 <CountryPerks
-                name="School Digitalization System "
+                name="Isnartech S.D.S."
                 a1="Centralized Intelligent and Automated Digitalization System for Education"
                 a2="As the world around us continues to become more digitally connected, our schools must be prepared to succeed in the 21st Century. "
                 a3="https://img.icons8.com/cotton/344/market--v2.png"
@@ -66,10 +66,8 @@ const EducationalInstituteDigitalisation = () => {
                 // url1="/contact-us"
                 // url2="/enroll-school"
                 // url3="/register-for-workshop"
-                url1="/"
-                url2="/"
-                url3="/"
-                show={true}
+                url1="/contact"
+             
               
             />
             <Footer show = {false}/>

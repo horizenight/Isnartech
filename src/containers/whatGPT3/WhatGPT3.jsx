@@ -8,6 +8,8 @@ import iot from '../../../assets/images.jpg'
 import ai from '../../../assets/blog02.png'
 
 const WhatGPT3 = () => {
+
+
   return (
     <div className="gpt3__whatgpt3 section__margin" id="whpt3">
       <div className="gpt3__whatgpt3-feature">
@@ -25,23 +27,25 @@ const WhatGPT3 = () => {
         <h1 className="gradient__text">
         We are harnessing the power of AI to automate the laborious, repetitive tasks that sap precious time and resources from your business.
         </h1>
-        <p>Explore The Products</p>
+        {/* <p><a >
+        Getting Excited To...
+        </a></p> */}
       </div>
       <div className="gpt3__whatgpt3-container">
        
-        
-        <Feature
-          title="IOT Devices"
-          text="Our next series of products is for smart cities and smart industries. They are based on Internet Of Things technology. Smart electric and water meter are the first we are going to add."
-          image = {iot}
-          imageAlt={'Iot Devices'}
-        />
         <Feature
           title="Artificial Intelligence"
           text="Our next series of products is API coding. We develop API based on different technology."
           image = {ai}
           imageAlt={'Ai Devices'}
 
+        />
+        
+        <Feature
+          title="IOT Devices"
+          text="Our next series of products is for smart cities and smart industries. They are based on Internet Of Things technology. Smart electric and water meter are the first we are going to add."
+          image = {iot}
+          imageAlt={'Iot Devices'}
         />
       </div>
     </div>

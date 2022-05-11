@@ -39,7 +39,7 @@
     flex-direction: row;
     margin-left: 165px;
     margin-top: 80px;
-    margin-bottom: 120px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 599px) {
