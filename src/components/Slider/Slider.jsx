@@ -2,11 +2,11 @@ import React from 'react'
 import './Slider.css'
 
 
-import ai2 from '../../../assets/Slider2.png'
+
 import ai3 from '../../../assets/ai7.png'
 import ai from '../../../assets/AiIllustration.png'
 
-const colors = [ai, ai2, ai3];
+const colors = [ai, ai3];
 const delay = 2500;
 
 const Slider = () => {
