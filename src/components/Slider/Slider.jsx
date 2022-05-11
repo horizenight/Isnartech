@@ -1,8 +1,9 @@
 import React from 'react'
 import './Slider.css'
 
-import ai3 from '../../../assets/Slider2.png'
-import ai2 from '../../../assets/ai7.png'
+
+import ai2 from '../../../assets/Slider2.png'
+import ai3 from '../../../assets/ai7.png'
 import ai from '../../../assets/AiIllustration.png'
 
 const colors = [ai, ai2, ai3];
