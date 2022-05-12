@@ -34,8 +34,8 @@ Gurgaon, India.</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-       <a href="">
-        <h4>Social Media</h4>
+       <a href="https://www.linkedin.com/company/isnar-technologies-pvt-ltd/">
+        <h4>Linkedin</h4>
        </a>
       <Link to="/contact">
 
@@ -59,8 +59,8 @@ Gurgaon, India.</p>
       </Link>
         <h4>D-302, Tower D, Sector-102
 Gurgaon, India.</h4>
-        <h4>+91 6284071956(To be updated)</h4>
-        <h4>+91 7710455357(To be updated)</h4>
+        <h4>+91-6284071956</h4>
+        <h4>+91-9125842810</h4>
         <h4>enquiries@isnartech.com</h4>
       </div>
     </div>

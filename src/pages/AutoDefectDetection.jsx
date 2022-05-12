@@ -19,8 +19,8 @@ const AutoDefectDetection = () => {
     />
 
 <AboutProduct
-                country="Automated Defect Inspection"
-                description="ISNARTECH Automated Defect Inspection is based on deep learning and AI technology, capable of detecting many defects in real time with a missing rate of less than 0.1%. It is also capable to inspect defects from a wide range of products such as PCB boards and other electronic manufacturing industries, medical reports such as X-ray and NMR scanning. Additionally, it is adaptable and scalable to meet the changing needs of our customers"
+                country="A D I"
+                description="ISNARTECH ADI is based on deep learning and AI technology, capable of detecting many defects in real time with a missing rate of less than 0.1%. It is also capable to inspect defects from a wide range of products such as PCB boards and other electronic manufacturing industries, medical reports such as X-ray and NMR scanning. Additionally, it is adaptable and scalable to meet the changing needs of our customers"
                 capital="Wellington"
                 languages="English"
                
@@ -30,7 +30,7 @@ const AutoDefectDetection = () => {
             />
 
 <CountryPerks
-                name=" Auto Defect Detection"
+                name=" A D I"
                 a1="Intelligent system for automatic identification and classification of defects"
                 a2="ISNARTECH Automated Defect Classifier is trained on thousands of images, resulting in the automatic identification and classification of detected defects with less than 0.1% of missing rateand real time feedback alarm for new kinds of defects"
                 a3="https://img.icons8.com/cotton/344/market--v2.png"

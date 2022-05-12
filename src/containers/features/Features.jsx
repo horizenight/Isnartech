@@ -5,7 +5,7 @@ import './features.css';
 const featuresData = [
  
 {
-  title: 'FIRST OF ALL',
+  title: 'Why Us ?',
   text: 'Traditional approaches to solving business problems are often very manual, and therefore can be expensive, time-consuming and error prone. However, advances in artificial intelligence (AI) and deep-learning technologies have made it possible to develop automated and more intelligent systems that reduce costs and improve operations.'
 
 }
@@ -29,7 +29,7 @@ const Features = () => (
       Text to Fill
 
 </h1>
-      <p>Why should you choose us ?</p>
+      {/* <p>Why should you choose us ?</p> */}
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
