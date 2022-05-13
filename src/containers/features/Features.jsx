@@ -5,7 +5,7 @@ import './features.css';
 const featuresData = [
  
 {
-  title: 'Why Us ?',
+  title: 'WHY US ?',
   text: 'Traditional approaches to solving business problems are often very manual, and therefore can be expensive, time-consuming and error prone. However, advances in artificial intelligence (AI) and deep-learning technologies have made it possible to develop automated and more intelligent systems that reduce costs and improve operations.'
 
 }

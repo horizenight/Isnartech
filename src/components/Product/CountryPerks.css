@@ -29,12 +29,20 @@
     color: white;
 
 }
+.section__title__dark{
+
+    font-size: 60px;
+    text-align: center;
+}
 
 @media screen and (max-width: 599px) {
     .perks__group {
         width: 80%;
         padding: 10px;
         margin-bottom: 24px;
+    }
+    .section__title__dark{
+     font-size: 35px;
     }
 }
 
@@ -72,6 +80,9 @@
         flex-direction: column;
         margin-left: 40px;
     }
+    .section__title__dark{
+        font-size: 35px;
+       }
 }
 
 .benefit__icon {
@@ -83,8 +94,3 @@
     color: white;
 }
 
-.section__title__dark{
-
-    font-size: 70px;
-    text-align: center;
-}
