@@ -105,6 +105,7 @@
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
+        z-index: 999;
     }
 
     .gpt3__navbar-menu {
@@ -147,6 +148,8 @@
 
     .gpt3__navbar-menu_container-links-sign {
         display: block;
+        z-index: 999;
+        
       
 
     }

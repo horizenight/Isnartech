@@ -21,7 +21,10 @@ const Menu = () => {
 
       <ul className="menus">
         <p>
+    
+
           <a href="/#whpt3">About us</a>
+      
         </p>
         {menuItems.map((menu, index) => {
           const depthLevel = 0;
@@ -93,7 +96,7 @@ const Navbar = () => {
 
               <ul className="menus">
                 <p>
-                  <a href="#whpt3">About us</a>
+                  <a href="/#whpt3">About us</a>
                 </p>
                 {menuItems.map((menu, index) => {
                   const depthLevel = 0;
