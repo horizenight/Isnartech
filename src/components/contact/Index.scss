@@ -5,8 +5,7 @@
   overflow: hidden;
 padding-top: 2rem;
   padding-bottom: 5rem;
-
-  
+ 
     .text-zone {
         flex: 1;
   
@@ -202,3 +201,48 @@ padding-top: 2rem;
     }
   }
 }
+
+
+
+@media screen and (max-width: 850px) {
+  .info-map{
+    opacity: 0;
+  }
+  .map-wrap{
+    opacity: 0;
+  }
+
+  .text-zone{
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  /* Customizing feature component as per needs */
+  .info-map{
+    opacity: 0;
+  }
+  .map-wrap{
+    opacity: 0;
+  }
+
+  .text-zone{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .info-map{
+    opacity: 0;
+  }
+  .map-wrap{
+    opacity: 0;
+  }
+
+  .text-zone{
+    padding: 0;
+  }
+}
+

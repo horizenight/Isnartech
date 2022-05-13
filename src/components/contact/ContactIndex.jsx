@@ -43,7 +43,7 @@ const ContactIndex = () => {
                 Contact US ! 
             </h1>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, mollitia sed cum ratione corporis amet natus quibusdam facilis dolore aliquid nulla reprehenderit veniam, ullam rerum nobis saepe harum aspernatur? Reprehenderit.
+                
             </p>
             <div className='contact-form'>
 

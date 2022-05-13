@@ -125,15 +125,15 @@ const Navbar = () => {
               <Link to="/collaboration">
                 <p>Collaborations</p>
               </Link>
-
+              <Link to='/contact'>
+                
               <button
                 type="button"
-                onClick={() => {
-                  Console.log("hellp");
-                }}
+               
               >
                 Contact us!
               </button>
+              </Link>
             </div>
           </div>
         )}
