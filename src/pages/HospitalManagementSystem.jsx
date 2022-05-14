@@ -28,7 +28,7 @@ const HospitalManagementSystem = () => {
             />
 
 <CountryPerks
-                name="H M S"
+                name="HMS"
                 a1="Digitalization of Hospital under one platform"
                 a2="ISNARTECH Hospital Management System is a technology-driven hospital management solution that is designed to optimize the efficiency and productivity of your organization. A wide range of verticals and diverse needs of hospitals are planned with the application"
                 a3="https://img.icons8.com/cotton/344/market--v2.png"
