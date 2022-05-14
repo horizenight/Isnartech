@@ -44,7 +44,9 @@ const AutonomousDrivingTech = () => {
 
     position:'relative',
     zIndex:'1',
-    padding:'30px 100px 30px 400px ',
+    padding:'3rem',
+    textAlign:'center',
+    marginRight:'5px',
    
     width:'80%',
 
@@ -63,7 +65,7 @@ const AutonomousDrivingTech = () => {
     
 
 }}> 
-These lifesaving systems are key to ensuring the success of ADAS applications, incorporating the latest interface standards and running multiple vision-based algorithms to support real-time multimedia, vision co-processing, and sensor fusion subsystems.
+Human error is directly or indirectly basic cause of almost all vehicle accidents.These accidents can be reduced and avoided with Advanced Driver Assistance Systems (ADAS). The role of ADAS is to give warning signal to the driver and people sitting in the car. The ADAS warnings are highly useful reducing the number of car and other vehicle accidents.
 </h3>
 
 

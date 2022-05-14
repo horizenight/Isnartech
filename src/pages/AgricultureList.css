@@ -6,3 +6,24 @@
     background-color:#182342;
 }
 
+.h3{
+    position:relative;
+    z-index:1;
+    padding:30px 100px 30px 400px ;
+   
+    width:'80%';
+
+   
+    
+    
+    font-family: 'GothicA1-Regular';
+    font-style: 'normal';
+    font-weight: '300';
+    font-size: '18px';
+    line-height: '22px';
+    color: white;
+    background-color: white;
+}
+
+
+

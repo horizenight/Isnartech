@@ -26,7 +26,7 @@ const Features = () => (
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">
 
-      Text to Fill
+      We have an amazing team who works relentlessly and are always excited about the future
 
 </h1>
       {/* <p>Why should you choose us ?</p> */}
