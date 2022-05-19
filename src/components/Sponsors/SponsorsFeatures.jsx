@@ -74,7 +74,7 @@ const row2 = [
 
 const SponsorsFeatures = () => {
   return (
-    <div className="gpt3__features_sponsors section__padding" id="features">
+    <div className="gpt3__features_sponsors section__padding" id="Sponsors">
      <div className="gpt3__features-heading_sponsors">
       <h1 className="gradient__text">
       Sponsors</h1>

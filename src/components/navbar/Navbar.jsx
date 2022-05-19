@@ -57,9 +57,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-      <Link to="/collaboration">
+     <a href="/#Sponsors">
                 <p>Collaborations</p>
-              </Link>
+
+     </a>
+             
               <Link to="/contact">
                 
         <button type="button">Contact us!</button>
@@ -125,9 +127,11 @@ const Navbar = () => {
     })} */}
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">
-              <Link to="/collaboration">
+             
+                <a href="/#Sponsors">
                 <p>Collaborations</p>
-              </Link>
+                </a>
+            
               <Link to='/contact'>
                 
               <button
