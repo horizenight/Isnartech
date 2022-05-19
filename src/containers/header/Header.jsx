@@ -1,10 +1,7 @@
 import React from 'react'
 
 import './header.css'
-import people from '../../../assets/people.png'
-import ai from '../../../assets/CeoNote.png'
-import ai2 from '../../../assets/ai7.png'
-import ai3 from '../../../assets/AiIllustration.png'
+
 import Slider from '../../components/Slider/Slider'
 
 
