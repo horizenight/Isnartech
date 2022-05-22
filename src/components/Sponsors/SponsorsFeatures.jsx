@@ -34,6 +34,19 @@ const row1 = [
       updatedAt: "",
       username: "isnartech",
     },
+    {
+      id: 3,
+      name: "Memorance AI, Taiwan",
+      type: "Sponsors",
+      shortDescription: "Sponsors",
+      description: "",
+      registrationUrl: "#",
+      image: "",
+      pdf: "",
+      updatedAt: "",
+      username: "isnartech",
+    },
+ 
 
   ];
 const row2 = [
@@ -44,9 +57,7 @@ const row2 = [
       
       shortDescription: "Sponsors",
       description: "",
-      from: "2023-01-01T00:00:00.000Z",
-      to: "2023-01-01T00:00:00.000Z",
-      venue: "google meet",
+      
       registrationUrl: "#",
       image: "https://i.ibb.co/F8bBXDZ/download-1.png",
       pdf: "",
@@ -54,17 +65,29 @@ const row2 = [
       username: "isnartech",
     },
     {
-      id: 1,
+      id: 2,
       name: "UP Government",
       type: "Sponsors",
       
       shortDescription: "Sponsors",
       description: "",
-      from: "2023-01-01T00:00:00.000Z",
-      to: "2023-01-01T00:00:00.000Z",
-      venue: "google meet",
+     
       registrationUrl: "#",
       image: "https://i.ibb.co/SnQMDwG/download-2.png",
+      pdf: "",
+      updatedAt: "",
+      username: "isnartech",
+    },
+    {
+      id: 3,
+      name: "Aptavec Technology Solutions, Edmonton, Alberta Canada",
+      type: "Sponsors",
+      
+      shortDescription: "Sponsors",
+      description: "",
+     
+      registrationUrl: "#",
+      image: "",
       pdf: "",
       updatedAt: "",
       username: "isnartech",
@@ -76,8 +99,7 @@ const SponsorsFeatures = () => {
   return (
     <div className="gpt3__features_sponsors section__padding" id="Sponsors">
      <div className="gpt3__features-heading_sponsors">
-      <h1 className="gradient__text">
-      Sponsors</h1>
+      <h1 className="gradient__text">Collaborations</h1>
       {/* <p>Why should you choose us ?</p> */}
     </div>
     <div className="gpt3__features-container_sponsors">

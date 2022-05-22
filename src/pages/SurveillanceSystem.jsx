@@ -20,13 +20,13 @@ const SurveillanceSystem = () => {
     <>
     <Navbar/>
 
-    <HeroSchoolManagement name="Smart Surveillance &Society Security Management"
+    <HeroSchoolManagement name="Smart Surveillance & Society Security Management"
       Background="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VydmVpbGxhbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
     />
 
 <AboutProduct
                 features={Survillancefeatures}
-                country="Smart Surveillance &Society Security Management"
+                country="Smart Surveillance & Society Security Management"
                 description="The tech-savvy generation usually requires smart technologies & apps which help them interact with the society smoothly.This is where Smart Surveillance & Society Security Management services steps in! A one-stop solution for a smart societies and public places. We are developing a smart solution to provide extra security in societies and other public places. This solution has capability to track people, vehicles and record unusual activities in database."
               show = {true}
                ListTitle="Key features:"
@@ -78,7 +78,7 @@ const SurveillanceSystem = () => {
                 // url1="/contact-us"
                 // url2="/enroll-school"
                 // url3="/register-for-workshop"
-                url1="/"
+                url1="/contact"
                 url2="/"
                 url3="/"
               

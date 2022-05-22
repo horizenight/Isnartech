@@ -19,7 +19,7 @@ const EducationalInstituteDigitalisation = () => {
     />
 
 <AboutProduct
-                country="S D S"
+                country="SDS"
                 description="ISNARTECH SDS is a comprehensive solution that helps schools transform their operations and improve student outcomes. The system automates attendance, behavior analysis, performance analysis, and exam fraud reduction to help schools improve efficiency and reduce student dropout. Additionally, the ID card scan-based student registration and admission process streamlines school operations and provides a centralized database for school information. The system's deep learning and AI-based technology provides accurate and actionable insights to help schools make informed decisions."
               show = {true}
                

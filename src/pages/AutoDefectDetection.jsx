@@ -19,18 +19,17 @@ const AutoDefectDetection = () => {
     />
 
 <AboutProduct
-                country="A D I"
+                country="ADI"
                 description="ISNARTECH ADI is based on deep learning and AI technology, capable of detecting many defects in real time with a missing rate of less than 0.1%. It is also capable to inspect defects from a wide range of products such as PCB boards and other electronic manufacturing industries, medical reports such as X-ray and NMR scanning. Additionally, it is adaptable and scalable to meet the changing needs of our customers"
                 capital="Wellington"
                 languages="English"
                
                 symbol="https://images.unsplash.com/photo-1596496181961-4326beb30551?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hY2hpbmUlMjBkZWZlY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                currency="New Zealand Dollar"
-                climate="14 ℃ to 19 ℃"
+                
             />
 
 <CountryPerks
-                name=" A D I"
+                name=" ADI"
                 a1="Intelligent system for automatic identification and classification of defects"
                 a2="ISNARTECH Automated Defect Classifier is trained on thousands of images, resulting in the automatic identification and classification of detected defects with less than 0.1% of missing rateand real time feedback alarm for new kinds of defects"
                 a3="https://img.icons8.com/cotton/344/market--v2.png"
@@ -61,7 +60,7 @@ const AutoDefectDetection = () => {
                 punchline="What are you waiting for, cut your cost, reduce inspection time, improve product quality and efficiency up to 800%?"
                 photo="https://images.unsplash.com/photo-1580584126903-c17d41830450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWFjaGluZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                 cta1="Get in Touch"
-                url="/"
+                url1="/contact"
             />
 
             <Footer show={false}/>

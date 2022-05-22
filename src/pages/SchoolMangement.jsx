@@ -23,12 +23,11 @@ const SchoolManagement = () => {
                 languages="English"
                
                 symbol="https://images.unsplash.com/photo-1599725427295-6ed79ff8dbef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MTE1MzEyNDN8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                currency="New Zealand Dollar"
-                climate="14 ℃ to 19 ℃"
+            
             />
 
 <CountryPerks
-                name="School Management System"
+                name="SMS"
                 a1="Quality Living"
                 a2="High standards of living"
                 a3="https://d34od1rbaqrsd3.cloudfront.net/icon_travel.svg"
@@ -50,7 +49,7 @@ const SchoolManagement = () => {
                 />
 
 <CountryCTA
-                punchline="Learn More School Management System "
+                punchline="Learn More SMS "
                 photo="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 cta1="Get in Touch"
                 url="/immigration-call"

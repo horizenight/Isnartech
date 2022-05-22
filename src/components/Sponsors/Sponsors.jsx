@@ -13,8 +13,11 @@ const Sponsors = ({event}) => {
       <div className="description">{event.description}</div>
       
     </div>
- 
+      {event.image && 
       <img src={event.image} alt="Event" />
+      
+
+      }
    
 
   </div>

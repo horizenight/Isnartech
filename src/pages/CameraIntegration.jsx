@@ -78,7 +78,7 @@ const CameraIntegration = () => {
                 // url1="/contact-us"
                 // url2="/enroll-school"
                 // url3="/register-for-workshop"
-                url1="/"
+                url1="/contact"
                 url2="/"
                 url3="/"
               

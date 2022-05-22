@@ -20,7 +20,7 @@ const IntelligentAgricultureManagementSystem = () => {
     <HeroSchoolManagement name="Intelligent Agriculture Management System" Background="https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"/>
 
 <AboutProduct
-                country="Intelligent  Agriculture Management System"
+                country="IAMS"
                 description="We are trying to introduce AI technology in the agriculture sector. We are developing a solution based on AI technology to detect the disease and suggest the treatment for it after disease classification."
            
                
@@ -37,10 +37,10 @@ const IntelligentAgricultureManagementSystem = () => {
 
 
 <CountryCTA
-                punchline="Learn More Intelligent AgricultureManagement System "
+                punchline="Learn More IAMS"
                 photo="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFncmljdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 cta1="Get in Touch"
-                url="/"
+                url1="/contact"
             />
 
             
