@@ -3,6 +3,10 @@ import Sponsors from './Sponsors';
 
 import './SponsorsFeatures.css';
 
+import row1img1 from "../../../assets/row1img1.png"
+import row1img2 from "../../../assets/row1img2.png"
+import row2img1 from "../../../assets/row2img1.png"
+import row2img2 from "../../../assets/row2img2.png"
 
 
 
@@ -17,7 +21,7 @@ const row1 = [
       to: "2023-01-01T00:00:00.000Z",
       venue: "google meet",
       registrationUrl: "#",
-      image: "https://i.ibb.co/hK4w03Z/download.png",
+      image: `${row1img1}`,
       pdf: "",
       updatedAt: "",
       username: "isnartech",
@@ -29,7 +33,7 @@ const row1 = [
       shortDescription: "Sponsors",
       description: "",
       registrationUrl: "#",
-      image: "https://i.ibb.co/Ky1PcPZ/dps.jpg",
+      image: `${row1img2}`,
       pdf: "",
       updatedAt: "",
       username: "isnartech",
@@ -59,7 +63,7 @@ const row2 = [
       description: "",
       
       registrationUrl: "#",
-      image: "https://i.ibb.co/F8bBXDZ/download-1.png",
+      image: `${row2img1}`,
       pdf: "",
       updatedAt: "",
       username: "isnartech",
@@ -73,7 +77,7 @@ const row2 = [
       description: "",
      
       registrationUrl: "#",
-      image: "https://i.ibb.co/SnQMDwG/download-2.png",
+      image: `${row2img2}`,
       pdf: "",
       updatedAt: "",
       username: "isnartech",
