@@ -8,14 +8,19 @@ import CountryCTA from '../components/Product/CountryCta'
 import CountryPerks from '../components/Product/CountryPerks'
 import HeroSchoolManagement from '../components/Product/HeroSchoolManagement'
 import { Footer } from '../containers'
+import video from '../../assets/SchoolDigitalistationVideo.mp4'
+
 
 const EducationalInstituteDigitalisation = () => {
   return (
     <>
     <Navbar/>
+   
 
     <HeroSchoolManagement name="School Digitalization System "
       Background="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      Video={`${video}`}
+ 
     />
 
 <AboutProduct

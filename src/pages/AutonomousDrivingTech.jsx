@@ -12,6 +12,7 @@ import NestedList from '../Ui/Card/NestedLists'
 
 import './AgricultureList.css'
 import { ADASfeatures } from './ProductFeatures/ADAS'
+import video from '../../assets/isnartech_highbeam.mp4'
 
 
 const AutonomousDrivingTech = () => {
@@ -23,6 +24,7 @@ const AutonomousDrivingTech = () => {
 
     <HeroSchoolManagement name="Autonomous driving technology (ADAS)"
       Background="https://images.unsplash.com/photo-1610608485978-485fce6e8da9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      Video = {video}
     />
 
 <AboutProduct

@@ -29,7 +29,6 @@ const IntelligentAgricultureManagementSystem = () => {
             
             toggle = {true}
             />
- {/* <Card image={iot} title={'IOT Devices'} text={'Our next series of products is for smart cities .'}/> */}
 
 
 

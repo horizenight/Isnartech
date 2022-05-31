@@ -2,9 +2,10 @@ import React from 'react'
 
 import NestedList from '../../Ui/Card/NestedLists';
 import SimpleList from '../../Ui/Card/SimpleList';
+import UiList from '../../Ui/Card/uiList';
 import './AboutProduct.css';
 
-function AboutProduct({country, description , flag,symbol,image= true,toggle=false,ListTitle,simpleListToggle=false,features}) {
+function AboutProduct({country, description , flag,symbol,image= true,toggle=false,ListTitle,simpleListToggle=false,features,Uilisttoggle=false}) {
 
 
    
@@ -29,6 +30,11 @@ function AboutProduct({country, description , flag,symbol,image= true,toggle=fal
                         features
                         
                     } />}
+                    
+                   {Uilisttoggle &&
+                    <UiList/>
+                   }
+                       
 
                     
                 </span>}

@@ -8,6 +8,7 @@ import CountryCTA from '../components/Product/CountryCta'
 import CountryPerks from '../components/Product/CountryPerks'
 import HeroSchoolManagement from '../components/Product/HeroSchoolManagement'
 import { Footer } from '../containers'
+import video from '../../assets/isnartech_defect_inspection_.mp4'
 
 const AutoDefectDetection = () => {
   return (
@@ -16,6 +17,7 @@ const AutoDefectDetection = () => {
 
     <HeroSchoolManagement name="Automated Defect Inspection"
       Background="https://images.unsplash.com/photo-1585896452718-89b5b66a5a6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVmZWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      Video={video }
     />
 
 <AboutProduct

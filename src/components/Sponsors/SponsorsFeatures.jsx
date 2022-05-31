@@ -7,6 +7,7 @@ import row1img1 from "../../../assets/row1img1.png"
 import row1img2 from "../../../assets/row1img2.png"
 import row2img1 from "../../../assets/row2img1.png"
 import row2img2 from "../../../assets/row2img2.png"
+import row2img3 from "../../../assets/pregleAI_logo.png"
 
 
 
@@ -92,6 +93,20 @@ const row2 = [
      
       registrationUrl: "#",
       image: "",
+      pdf: "",
+      updatedAt: "",
+      username: "isnartech",
+    },
+    {
+      id: 3,
+      name: "PregleAI Research & Smart Solutions",
+      type: "Sponsors",
+      
+      shortDescription: "Sponsors",
+      description: "",
+     
+      registrationUrl: "#",
+      image: `${row2img3}`,
       pdf: "",
       updatedAt: "",
       username: "isnartech",

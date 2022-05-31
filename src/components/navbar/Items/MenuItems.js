@@ -35,6 +35,10 @@ export const menuItems = [
                     title: "Smart Surveillance &Society Security Management",
                     pathname:"/surveillance-system",},
           
+                   {
+                    title: "AI Car Damage Detection & Recognition",
+                    pathname:"/aiCarDamage",},
+          
                  
                 
                   

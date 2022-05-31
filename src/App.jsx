@@ -20,6 +20,7 @@ import CustomerSupport from './pages/CustomerSupport'
 import HospitalMangementSystem from './pages/HospitalManagementSystem'
 import AutonomousDrivingTech from './pages/AutonomousDrivingTech'
 import DropDownState from './components/Context/DropDownState'
+import CarDamage from './pages/CarDamage'
 
 
 function App() {
@@ -73,6 +74,11 @@ function App() {
 
        <Route exact path='/school'>
        <SchoolManagement/>
+       </Route>
+
+
+       <Route exact path='/aiCarDamage'>
+       <CarDamage/>
        </Route>
 
 
