@@ -80,6 +80,19 @@
     .gpt3__features_sponsors {
         flex-direction: column;
     }
+    .row{
+        width: 100%;
+        flex-direction: column;
+        
+        
+    }
+    .gpt3__features_sponsors_row{
+
+        justify-content: center;
+        flex-direction: column;
+    }
+
+   
 
     .gpt3__features-heading_sponsors {
         margin: 0 0 2rem 0;
@@ -92,5 +105,6 @@
         font-size: 28px;
         line-height: 38px;
     }
+    
 }
 

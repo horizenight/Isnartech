@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-      <h1 className="gradient__text"> AI based solution for Business  </h1>
+      <h1 className="gradient__text"> Hello world based solution for Business  </h1>
       <p> ISNARTECH is a leading AI based solution provider for business.Our team works with clients by understanding their business processes, mapping them out, design custom solutions customized to fit the specific needs of each client, and optimizing them for greater productivity and accuracy.</p>
       
       {/* <div className="gpt3__header-content__people">
