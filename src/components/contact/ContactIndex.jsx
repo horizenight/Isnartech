@@ -15,9 +15,9 @@ const ContactIndex = () => {
         emailjs
         .sendForm(
             'default_service',
-            'template_wf8fk6u',
+            'template_i2s9l8ba',
             form.current,
-            'FA-6f_aorinoK2dYA'
+            'rJKAVppLIpXi0GyTK'
 
         )
         .then(
