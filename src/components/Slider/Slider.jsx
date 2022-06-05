@@ -5,8 +5,12 @@ import './Slider.css'
 
 import ai3 from '../../../assets/ai7.png'
 import ai from '../../../assets/AiIllustration.png'
+import ill from '../../../assets/Illustration7.png'
+import ill2 from '../../../assets/Illustration19.png'
+import ill3 from '../../../assets/Illustration20.png'
 
-const colors = [ai, ai3];
+import fire2 from '../../../assets/Design_2.png'
+const colors = [ai, ai3,ill,ill3,fire2,ill2];
 const delay = 2500;
 
 const Slider = () => {

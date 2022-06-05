@@ -60,7 +60,7 @@ Gurgaon, India.</p>
         <h4>D-302, Tower D, Sector-102
 Gurgaon, India.</h4>
         <h4>+91-6284071956</h4>
-        <h4>+91-9125842810</h4>
+        <h4>+91-7704836280</h4>
         <h4>enquiries@isnartech.com</h4>
       </div>
     </div>
