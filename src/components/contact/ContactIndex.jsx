@@ -15,9 +15,9 @@ const ContactIndex = () => {
         emailjs
         .sendForm(
             'default_service',
-            'template_i2s9l8ba',
+            'template_cg5p2di',
             form.current,
-            'rJKAVppLIpXi0GyTK'
+            'nAJolz7A6g_a8Y8rw'
 
         )
         .then(
@@ -26,6 +26,7 @@ const ContactIndex = () => {
               window.location.reload(false)
             },
             (err) => {
+                console.log(err)
                 alert('Failed to send the message, please try again')
             }
           )
